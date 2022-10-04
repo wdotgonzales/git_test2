@@ -1,3 +1,3 @@
-# git_test2
-Learning How to use Git
-Hello Odin!
+# School Homework
+
+homework given to us from our teacher using Jquery,html,css

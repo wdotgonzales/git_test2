@@ -1,0 +1,68 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 15px;
+}
+
+.container{
+    width: 580px;
+    margin: 0 auto;
+
+    padding-bottom: 2em;
+}
+
+.top-button-container{
+    width: 64.5%;
+    margin: 0 auto;
+
+    margin-block: 2em;
+}
+
+.bottom-button-container{
+    margin: 0 auto;
+    width: 95.9%;
+}
+
+.btn1{
+    width: 8em;
+    height: 2.5em;
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.btn2{
+    width: 12em;
+    height: 3em;
+
+    background-color: rgb(17, 192, 255);
+    border: 1px solid rgb(17, 192, 255);
+    
+    border-radius: 7px;
+
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Click Event */
+.btn1-change{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.btn2-change{
+    background-color: palevioletred;
+    border: 1px solid palevioletred; 
+}
+
+.btn3-change{
+    background-color: rgb(59, 88, 255);
+    border: 1px solid rgb(59, 88, 255);; 
+}
+
+

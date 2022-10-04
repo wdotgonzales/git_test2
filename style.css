@@ -4,13 +4,27 @@
     box-sizing: border-box;
 
     font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+body{
+    background-color: pink;
 }
 
 .container{
     width: 580px;
     margin: 0 auto;
 
-    padding-bottom: 2em;
+    padding-block: 4.5em;
+
+    margin-top: 5em;
+    box-shadow: 7px 7px 10px grey;
+
+    background-color: white;
+
+    border-radius: 18px;
+
 }
 
 .top-button-container{
@@ -66,3 +80,42 @@
 }
 
 
+/* Other Stuff */
+hr{
+    margin-top: 1.5em;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.hello-world-container p {
+    text-align: center;
+    font-size: 32px;
+
+    font-weight: bold;
+
+    margin-top: 0.5em;
+}
+
+.click-me-container button{
+    font-size: 18px;
+    width: 6em;
+    height: 2.5em;
+
+    background-color: green;
+    border: 3.5px solid rgb(16, 251, 16);
+
+    font-weight: bold;
+    color: white;
+
+    border-radius: 7px;
+}
+
+.click-me-container{
+    width: 112px;
+    margin: 0 auto;
+
+    margin-top: 0.5em;
+}

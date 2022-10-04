@@ -94,7 +94,11 @@ $(document).ready(function(){
 
             $('.btn1').text('OFF')
         }
+    })
 
 
+    // Click Me!
+    $('.click-me').click(function(){
+        alert('Hello,World')
     })
 });
